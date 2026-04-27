@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter Berat - Dhiyo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h1>Converter Berat Otomatis</h1>
+    
+    <p style="text-align: center; margin-top: -15px; color: #fffdfd;">Dibuat oleh: <strong>I Kadek Dhiyo Dewangga</strong></p>
+
+    <div class="wrapper">
+        <p>Masukkan berat (gram):</p>
+        <input type="number" id="grams" placeholder="Contoh: 1000"><br>
+        <span id="error" style="color: #ff6b6b; font-size: 0.8rem;"></span>
+
+        <p>
+            Ubah ke:
+            <select id="type">
+                <option value="Kilograms">Kilogram (kg)</option>
+                <option value="Pounds">Pon (lb)</option>
+                <option value="Ounces">Ons (oz)</option>
+                <option value="Miligrams">Miligram (mg)</option>
+                <option value="Quintals">Kuintal</option>
+                <option value="Tons">Ton</option>
+                <option value="Stones">Stone</option>
+            </select>
+        </p>
+
+        <button id="btn">Ubah Sekarang</button>
+        <p id="output" style="font-weight: bold; margin-top: 20px;"></p>
+    </div>
+
+    <footer style="text-align: center; margin-top: 20px; font-size: 0.8rem; color: #fffdfd;">
+        &copy; 2026 Dhiyo - Project
+    </footer>
+</body>
+
+</html>
