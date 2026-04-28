@@ -1,2 +1,2 @@
-# Javascript
-Pengubah berat otomatis dari satuan gram
+# FINAL PROJECT STRUKTUR DATA
+CONVERT GRAM MENJADI SATUAN BERAT LAINNYA
